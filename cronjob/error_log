@@ -1,0 +1,8 @@
+[23-Oct-2020 15:20:15 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/arsetudh/public_html/config.php on line 13
+[23-Oct-2020 15:20:15 Asia/Jakarta] PHP Warning:  include(pages/page_error.php): failed to open stream: No such file or directory in /home/arsetudh/public_html/config.php on line 16
+[23-Oct-2020 15:20:15 Asia/Jakarta] PHP Warning:  include(pages/page_error.php): failed to open stream: No such file or directory in /home/arsetudh/public_html/config.php on line 16
+[23-Oct-2020 15:20:15 Asia/Jakarta] PHP Warning:  include(): Failed opening 'pages/page_error.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/arsetudh/public_html/config.php on line 16
+[23-Oct-2020 15:30:25 Asia/Jakarta] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/arsetudh/public_html/config.php on line 13
+[23-Oct-2020 15:30:25 Asia/Jakarta] PHP Warning:  include(pages/page_error.php): failed to open stream: No such file or directory in /home/arsetudh/public_html/config.php on line 16
+[23-Oct-2020 15:30:25 Asia/Jakarta] PHP Warning:  include(pages/page_error.php): failed to open stream: No such file or directory in /home/arsetudh/public_html/config.php on line 16
+[23-Oct-2020 15:30:25 Asia/Jakarta] PHP Warning:  include(): Failed opening 'pages/page_error.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/arsetudh/public_html/config.php on line 16

@@ -1,0 +1,10 @@
+RewriteEngine on
+Options +FollowSymLinks
+
+RewriteRule ^([A-Za-z0-9_-]+)(\.html)?$ index.php?menu=$1
+RewriteRule ^([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)(\.html)?$ index.php?menu=$1&actions=$2
+RewriteRule ^([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)(\.html)?$ index.php?menu=$1&actions=$2&iddata=$3
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ server-error [L]
